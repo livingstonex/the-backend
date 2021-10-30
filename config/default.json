@@ -1,0 +1,16 @@
+{
+  "microservice": {
+    "config": {
+      "host": "http://127.0.0.1",
+      "port": 5678,
+      "services": {
+        "print": {
+          "name": "Institutions Microservice",
+          "url": "http://localhost:6789",
+          "host": "http://127.0.0.1",
+          "port": 6789
+        }
+      }
+    }
+  }
+}
